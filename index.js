@@ -1,6 +1,6 @@
 const myPromise = new Promise((resolve, rejected) =>{
   
-    let condition = true;
+    let condition = false;
     
     if(condition){
       resolve('Promise is resolved successfully.');
